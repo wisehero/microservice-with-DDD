@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "outDir": "target/out-tsc/spec",
+    "paths": {
+      "@libararyview/*": ["src/test/javascript/spec/app/microfrontends/*"],
+      "@/*": ["*"]
+    },
+    "types": ["jest", "node"]
+  },
+  "include": ["src/main/webapp/app", "src/test/javascript/spec"]
+}
