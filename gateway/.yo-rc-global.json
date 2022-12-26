@@ -1,7 +1,8 @@
 {
   "generator-jhipster:7.9.3": {
     "promptValues": {
-      "nativeLanguage": "ko"
+      "nativeLanguage": "ko",
+      "microservicePath": "/Users/wisehero/documents/microservice-with-DDD/bookCatalog"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "changelogDate": "20221226023530",
+  "clientRootFolder": "bookCatalog",
+  "databaseType": "mongodb",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "author",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "bookCatalog",
+  "microservicePath": "/Users/wisehero/documents/microservice-with-DDD/bookCatalog",
+  "name": "BookCatalog",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
